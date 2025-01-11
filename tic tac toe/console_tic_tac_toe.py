@@ -1,9 +1,7 @@
 from random import Random
-
 # globals
 CountsOptions = 0
 count_cell_occupied = 0
-RUN_GAME = True
 OPTIONS = ["1 PLAYER" ,"TWO PLAYERS", "EXIT"]
 board = [["", "", ""], ["", "", ""], ["", "", ""]]
 StateBoard = {"WINNER": False,"DRAW": False}
