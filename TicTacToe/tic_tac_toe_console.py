@@ -157,7 +157,7 @@ def play_for_me_and_computer():
                 count_cell_occupied += 1
                 TurnComputer, TurnMe = True, False 
             except:
-                print(f"Try again, you entered a difference input (numbers)")
+                print(f"You lost your turn, you entered a difference input (numbers)")
                 continue
             
         if count_cell_occupied == 9: 
